@@ -21,6 +21,7 @@ a {
   border-radius: 50%;
   position: absolute;
   opacity: 0.1;
+  margin: auto;
 }
 
 @media (prefers-color-scheme: dark) {

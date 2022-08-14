@@ -7,7 +7,6 @@ export default function Intro() {
     return (
         <div className={styles.container}>
             <Circle backgroundColor='green' top='-50vh' left='-50vh' />
-            <Circle backgroundColor='red' right='-40vh' />
             <div className={styles.card}>
                 <h1 className={styles.title}><span className={styles.brand}>RUPOQUE</span> Your Virtual Assistant</h1>
 
