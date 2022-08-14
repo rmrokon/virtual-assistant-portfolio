@@ -2,4 +2,50 @@
     height: 100vh;
     position: relative;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title {
+    text-align: center;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    width: 30%;
+    /* border: 1px solid slategray;
+    border-radius: 8px;
+    padding: 20px; */
+    border-right: 4px solid rgb(45, 186, 142);
+    border-radius: 8px;
+    padding-right: 20px;
+}
+
+.review {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.person {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+.reviewerName {
+    margin-left: 20px;
+    color: gray;
+    font-weight: bold;
 }
